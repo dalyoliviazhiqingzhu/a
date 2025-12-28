@@ -1,0 +1,47 @@
+header {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pattern {
+  position: relative;
+  
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: khaki;
+  font-size: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+  width:100%;
+  
+}
+
+.products-title {
+  font-size: 32px;
+  color: white;
+  text-align: left;
+  font-family: Helvetica;
+  background-color: mediumspringgreen;
+}
+
+.products{
+  margin-top: 100px;
+}
+
+.myspan{
+  color: red;
+  font-weight: bold;
+  font-family: Impact;
+  font-size: 30px;
+}
